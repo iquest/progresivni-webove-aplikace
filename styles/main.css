@@ -702,7 +702,6 @@ h3{
 }
 .header-phone:before{
 	content: '';
-	background-image: url(../images/phones/bgr-phone-shadow.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: absolute;
@@ -715,6 +714,12 @@ h3{
 	transition: all .3s;
 	filter: blur(0);
 	-webkit-filter: blur(0);
+}
+.webplossless .header-phone:before{
+	background-image: url(../images/webp/bgr-phone-shadow.webp);
+}
+.no-js .header-phone:before, .no-webplossless .header-phone:before{
+	background-image: url(../images/phones/bgr-phone-shadow.png);
 }
 #phone-1{
 	left: 0;

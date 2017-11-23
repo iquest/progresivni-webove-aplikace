@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="cs" class="no-js">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="images/favicon.ico" />
 
     <title>Progresivní webové aplikace</title>
+
+    <script>document.documentElement.classList.remove("no-js");</script>
 
     <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" /-->
     <link href="styles/bootstrap.min.css" rel="stylesheet" />
@@ -33,23 +35,71 @@
           <div class="header-phone-in"></div>
           <div class="header-phone" id="phone-1">
             <div class="header-phone-in"></div>
-            <div class="header-phone-pic unactive"><img src="images/phones/phone-1.png" alt="" class="img-fullwidth" /></div>
-            <div class="header-phone-pic active"><img src="images/phones/phone-1-active.png" alt="" class="img-fullwidth" /></div>
+            <div class="header-phone-pic unactive">
+              <picture>
+                <source srcset="images/webp/phone-1.webp" type="image/webp" class="img-fullwidth" />
+                <source srcset="images/phones/phone-1.png" type="image/png" class="img-fullwidth" /> 
+                <img src="images/phones/phone-1.png" alt="" class="img-fullwidth" />
+              </picture>
+            </div>
+            <div class="header-phone-pic active">
+              <picture>
+                <source srcset="images/webp/phone-1-active.webp" type="image/webp" class="img-fullwidth" />
+                <source srcset="images/phones/phone-1-active.png" type="image/png" class="img-fullwidth" /> 
+                <img src="images/phones/phone-1-active.png" alt="" class="img-fullwidth" />
+              </picture>
+            </div>
           </div>
           <div class="header-phone" id="phone-2">
             <div class="header-phone-in"></div>
-            <div class="header-phone-pic unactive"><img src="images/phones/phone-2.png" alt="" class="img-fullwidth" /></div>
-            <div class="header-phone-pic active"><img src="images/phones/phone-2-active.png" alt="" class="img-fullwidth" /></div>
+            <div class="header-phone-pic unactive">
+              <picture>
+                <source srcset="images/webp/phone-2.webp" type="image/webp" class="img-fullwidth" />
+                <source srcset="images/phones/phone-2.png" type="image/png" class="img-fullwidth" /> 
+                <img src="images/phones/phone-2.png" alt="" class="img-fullwidth" />
+              </picture>
+            </div>
+            <div class="header-phone-pic active">
+              <picture>
+                <source srcset="images/webp/phone-2-active.webp" type="image/webp" class="img-fullwidth" />
+                <source srcset="images/phones/phone-2-active.png" type="image/png" class="img-fullwidth" /> 
+                <img src="images/phones/phone-2-active.png" alt="" class="img-fullwidth" />
+              </picture>
+            </div>
           </div>
           <div class="header-phone" id="phone-3">
             <div class="header-phone-in"></div>
-            <div class="header-phone-pic unactive"><img src="images/phones/phone-3.png" alt="" class="img-fullwidth" /></div>
-            <div class="header-phone-pic active"><img src="images/phones/phone-3-active.png" alt="" class="img-fullwidth" /></div>
+            <div class="header-phone-pic unactive">
+              <picture>
+                <source srcset="images/webp/phone-3.webp" type="image/webp" class="img-fullwidth" />
+                <source srcset="images/phones/phone-3.png" type="image/png" class="img-fullwidth" /> 
+                <img src="images/phones/phone-3.png" alt="" class="img-fullwidth" />
+              </picture>
+            </div>
+            <div class="header-phone-pic active">
+              <picture>
+                <source srcset="images/webp/phone-3-active.webp" type="image/webp" class="img-fullwidth" />
+                <source srcset="images/phones/phone-3-active.png" type="image/png" class="img-fullwidth" /> 
+                <img src="images/phones/phone-3-active.png" alt="" class="img-fullwidth" />
+              </picture>
+            </div>
           </div>
           <div class="header-phone" id="phone-4">
             <div class="header-phone-in"></div>
-            <div class="header-phone-pic unactive"><img src="images/phones/phone-4.png" alt="" class="img-fullwidth" /></div>
-            <div class="header-phone-pic active"><img src="images/phones/phone-4-active.png" alt="" class="img-fullwidth" /></div>
+            <div class="header-phone-pic unactive">
+              <picture>
+                <source srcset="images/webp/phone-4.webp" type="image/webp" class="img-fullwidth" />
+                <source srcset="images/phones/phone-4.png" type="image/png" class="img-fullwidth" /> 
+                <img src="images/phones/phone-4.png" alt="" class="img-fullwidth" />
+              </picture>
+            </div>
+            <div class="header-phone-pic active">
+              <picture>
+                <source srcset="images/webp/phone-4-active.webp" type="image/webp" class="img-fullwidth" />
+                <source srcset="images/phones/phone-4-active.png" type="image/png" class="img-fullwidth" /> 
+                <img src="images/phones/phone-4-active.png" alt="" class="img-fullwidth" />
+              </picture>
+            </div>
           </div>
         </div> <!-- #header-phones -->
         <div id="header-links" class="font-bebas">
@@ -246,6 +296,7 @@
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <!--script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script-->
     <script src="scripts/jquery.scrollTo.js"></script>
+    <script src="scripts/modernizr-webp.js"></script>
     <script src="scripts/main.js"></script>
   </body>
 </html>
