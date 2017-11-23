@@ -1,0 +1,47 @@
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5){
+	.logo-footer:after, .bgr-dots.d1, .bgr-dots.d3, .bgr-dots.d4, .bgr-dots.d5{
+		background-size: 100% auto;
+	}
+	.logo-footer:after, .bgr-dots.d1{ background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAkCAYAAACuXZtIAAAAIklEQVR42mLsm7vmPwMSYGJAA4QFGP///z8qMCqASwAgwAADRWKe0UpWHgAAAABJRU5ErkJggg=='); }
+	.ci-link:after, .bgr-dots.d2{
+		background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAECAYAAACKqs+rAAAAIElEQVR42mLkXzjpPwMUfIjLZWSgEmBioBEYegYDBBgAdEkEBaecE8kAAAAASUVORK5CYII=');
+		background-size: auto 100%;
+	}
+	.bgr-dots.d3, #footer h2:before, .reason-row:last-child:before, .reason-row:first-child:before{ background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAiCAYAAAB4BHhVAAAAIUlEQVR42mL09I/+z4AEmBjQAIYA4////0cFRgWgACDAAEZqXrp5m98wAAAAAElFTkSuQmCC'); }
+	.bgr-dots.d4, .article-item:last-child:before, .btn-1:after, #interested h2:before{ background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAiCAYAAAB4BHhVAAAAGklEQVR42mL8DwQMSICRKAGGUYFRAQgACDAA+LZougye1gIAAAAASUVORK5CYII='); }
+	.bgr-dots.d5{ background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAiCAYAAAB4BHhVAAAAJElEQVR42mLsm7vmPwMSYGJAAxgCjP///2cgTcuowPAVAAgwAM3oBhbI000XAAAAAElFTkSuQmCC'); }
+	.logo-footer, .logo-header{
+		background-image: url(../images/retina/logo.png);
+		background-size: 100% 100%;
+	}
+	.contact-item.ci-email:before{
+		background-image: url(../images/retina/icon-email.png);
+		background-size: 100% 100%;
+	}
+	.contact-item.ci-address:before{
+		background-image: url(../images/retina/icon-location.png);
+		background-size: 100% 100%;
+	}
+	.int-item-icon{
+		background-size: 100% 100%;
+	}
+	.int-item-icon.i1{background-image: url(../images/retina/icon-try-1.png);}
+	.int-item-icon.i2{background-image: url(../images/retina/icon-try-2.png);}
+	.int-item-icon.i3{background-image: url(../images/retina/icon-try-3.png);}
+	.link-play-video:after{
+		background-image: url(../images/retina/icon-play.png);
+		background-size: 100% 100%;
+	}
+	.link-show-reasons:after{
+		background-image: url(../images/retina/icon-ground.png);
+		background-size: 100% 100%;
+	}
+	.i-want-to-know-more:before{
+		background-image: url(../images/retina/icon-view-more.png);
+		background-size: 100% 100%;
+	}
+	.i-want-to-know-more:after{
+		background-image: url(../images/retina/icon-view-more-hover.png);
+		background-size: 100% 100%;
+	}
+}
