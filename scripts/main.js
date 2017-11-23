@@ -9,14 +9,6 @@ $(function(){
 		return false;
 	});
 
-    //Slider
-    $('.bxslider').bxSlider({
-		auto: true,
-		pager: false,
-		controls: true,
-		touchEnabled: true
-    });
-
 	//Scroll animation
 	AOS.init({
 		offset: 0,
