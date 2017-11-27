@@ -1,6 +1,8 @@
 var CACHE_NAME = 'iquest-pwa-cache';
 var urlsToCache = [
   '/',
+  'manifest.json',
+  '/index.html',
   '/styles/main.css',
   '/scripts/main.js'
 ];

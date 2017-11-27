@@ -1,21 +1,13 @@
 ﻿{
-  "short_name": "PWA",
+  "short_name": "PWA iQuest",
   "name": "Progresivní webové aplikace",
+  "display": "standalone",
+  "description": "Vývoj progresivních webových aplikací - iQuest s.r.o.",
   "icons": [
     {
-      "src": "images/launcher-icon-1x.png",
-      "type": "image/png",
-      "sizes": "48x48"
-    },
-    {
-      "src": "images/launcher-icon-2x.png",
-      "type": "image/png",
-      "sizes": "96x96"
-    },
-    {
-      "src": "images/launcher-icon-4x.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "images/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "start_url": "/",
