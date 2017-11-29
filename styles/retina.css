@@ -8,7 +8,7 @@
 		background-size: auto 100%;
 	}
 	.bgr-dots.d3, #footer h2:before, .reason-row:last-child:before, .reason-row:first-child:before{ background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAiCAYAAAB4BHhVAAAAIUlEQVR42mL09I/+z4AEmBjQAIYA4////0cFRgWgACDAAEZqXrp5m98wAAAAAElFTkSuQmCC'); }
-	.bgr-dots.d4, .article-item:last-child:before, .btn-1:after, #interested h2:before{ background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAiCAYAAAB4BHhVAAAAGklEQVR42mL8DwQMSICRKAGGUYFRAQgACDAA+LZougye1gIAAAAASUVORK5CYII='); }
+	.bgr-dots.d4, .article-item:last-child:before, .interested-button-text:after, #interested h2:before{ background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAiCAYAAAB4BHhVAAAAGklEQVR42mL8DwQMSICRKAGGUYFRAQgACDAA+LZougye1gIAAAAASUVORK5CYII='); }
 	.bgr-dots.d5{ background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAiCAYAAAB4BHhVAAAAJElEQVR42mLsm7vmPwMSYGJAAxgCjP///2cgTcuowPAVAAgwAM3oBhbI000XAAAAAElFTkSuQmCC'); }
 	.logo-footer, .logo-header{
 		background-image: url(../images/retina/logo.png);
