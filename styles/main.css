@@ -766,6 +766,8 @@ h3{
 .interested-button-text{
 	position: relative;
 	margin-top: 100px;
+	text-align: left;
+    font-size: 75%;
 }
 
 /* * * Small Devices * * */
