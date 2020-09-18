@@ -353,7 +353,13 @@ h2 {
   display: block;
 }
 .int-item-icon.i1 {
-  background-image: url(../images/icon-try-1.png);
+	background: -webkit-linear-gradient(135deg, #03d5c5, #18c9ef);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+	font-size: 62px;
 }
 .int-item-icon.i2 {
   background-image: url(../images/icon-try-2.png);
