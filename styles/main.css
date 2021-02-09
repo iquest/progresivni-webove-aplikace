@@ -744,6 +744,9 @@ h3 {
   line-height: 1.25;
   color: #3c3c3c;
 }
+.back-fixed {
+  display: none;
+}
 .baseline-fix:after {
   content: "";
   font-family: Verdana, Arial, sans-serif;
@@ -895,8 +898,6 @@ h3 {
     width: 120px;
     /* font-size: 200px; */
   }
-  .reason-number img {
-  }
 
   /* * Articles * */
   #articles .container {
@@ -912,11 +913,32 @@ h3 {
   }
 
   /* * Header * */
+
+  #header-text {
+    padding-top: 50px;
+  }
   #header-text h1 {
     font-size: 5.5vw;
   }
   .header-text-small {
     font-size: 2.3vw;
+  }
+  .back-fixed {
+    display: block;
+    background-color: #00afac;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    transform: rotate(180deg);
+    text-align: center;
+  }
+  
+  .back-fixed a {
+    font-size: 4.5rem;
+    color: white;
+    line-height: 42px;
   }
 }
 @media (min-width: 768px) and (orientation: landscape) {
@@ -983,8 +1005,12 @@ h3 {
     position: absolute;
     left: 0;
     top: 50%;
+    padding-top: 0;
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
+  }
+  .back-fixed {
+    top: -50px;
   }
   .i-want-to-know-more span {
     display: inline-block;
@@ -994,10 +1020,10 @@ h3 {
     transform: translate(0, -75%);
   }
   #header-text h1 {
-    font-size: 5vw;
+    font-size: 3.8vw;
   }
   .header-text-small {
-    font-size: 2.1vw;
+    font-size: 1.5vw;
   }
 }
 
