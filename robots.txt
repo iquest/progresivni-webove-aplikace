@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
-Host: http://www.progresivni-webove-aplikace.cz/
-Sitemap: http://www.progresivni-webove-aplikace.cz/sitemap.xml
+Host: https://www.progresivni-webove-aplikace.cz/
+Sitemap: https://www.progresivni-webove-aplikace.cz/sitemap.xml
